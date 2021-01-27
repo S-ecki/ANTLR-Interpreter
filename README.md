@@ -7,7 +7,7 @@ The main aim was to understand how the different parts of a compiler and interpr
 
 The program is put together by 3 main parts:
 1. The `.g4` file defines the grammar on which the interpreter works. It sets up lexer and parser rules that will later get used.
-2. The `VisitorImplementation` is the heart of the program. It tells the interpreter what to do for every possible input set up in the grammar file.
+2. The `VisitorImplementation` is the heart of the program. It specifies the interpreter´s action for every possible input set up in the grammar file.
 3. `BigCalcProg.java` serves as the main. It sets up the ParseTree, visits the root, prints the result and handles errors.
 
 
