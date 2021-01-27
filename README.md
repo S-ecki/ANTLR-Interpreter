@@ -20,6 +20,19 @@ When running the _.g4_ file, lots of files will be created by ANTLR. Don´t worr
 The interpreter can ... well ... _interpret_ files with following syntax:
 
 Every statement must be closed by `;` <br/>
+Variables can be assigned using `=`. They have to start with exactly 1 letter followed by none-to-many digits.<br/>
+Compound Assignments with `+=`, `-=`, `*=`, `/=` also work conventionally.<br/>
+Common mathematical operators `+`, `-`, `*`, `/`, `%`, `**` work with the usual presedence, `()` can also be set.<br/>
+Moreover, the unary `+` and `-` can also be used.<br/>
+If you want the absolute value of an expression, `| |` is available. <br/>
+
+To everyones
+
+Decimal Numbers use `.` as comma <br/>
+_0.5_ can be written as _.5_<br/>
+The scientific exponential notation is also available - examples: `3.3e23`, `5.1e-11`, `6.513E4`<br/>
+_Whitespaces_ and _empty lines_ are ignored, _commenting_ is based on java syntax.<br/>
+
 
 
 
