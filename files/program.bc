@@ -1,0 +1,5 @@
+// output of this program is:
+// result: 2.0000000000
+x=1.0;
+y=1.0;
+if (x-y) e=1; else e=2;
